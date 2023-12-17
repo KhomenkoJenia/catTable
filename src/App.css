@@ -1,0 +1,57 @@
+.App {
+  text-align: center;
+}
+
+.app-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.form-container {
+  width: 600px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.form-container label {
+  font-weight: bold;
+}
+
+.form-container input {
+  padding: 8px;
+  border: 1px solid #ddd;
+}
+
+.form-container button {
+  padding: 8px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.form-container button:hover {
+  background-color: #45a049;
+}
+.app-container {
+  background-color: #ede6e6;
+  color: #000000;
+  border-radius: 10px;
+}
+
+/* Стилі для темного режиму */
+.app-container.dark-theme {
+  background-color: #eef694f1;
+  color: #ffffff;
+}
+.app-container.dark-theme button {
+  background-color: rgb(117, 215, 242);
+  color: #131405;
+}
